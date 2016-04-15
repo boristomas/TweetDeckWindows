@@ -55,3 +55,6 @@ TweetDeck/bin/x86/Release/ChromeDWriteFontCache
 TweetDeck/bin/x86/Release/debug.log
 *.localstorage
 *.localstorage-journal
+TweetDeck/bin/x86/Release/f_00001b
+TweetDeck/bin/x86/Release/GPUCache/data_1
+TweetDeck/bin/x86/Release/chromeData/ChromeDWriteFontCache

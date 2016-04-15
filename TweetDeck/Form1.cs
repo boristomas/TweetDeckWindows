@@ -42,7 +42,7 @@ namespace TweetDeck
 
 
             var settings = new CefSettings();
-            settings.CachePath = Environment.CurrentDirectory;
+            settings.CachePath = Environment.CurrentDirectory+ "/chromeData";
             
             Cef.Initialize(settings, shutdownOnProcessExit: true, performDependencyCheck: true);
 
