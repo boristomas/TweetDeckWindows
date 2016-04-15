@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TweetDeckLoader.exe" version="1.0.0.0" publicKeyToken="402471dad93b1f25" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="ikona.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TweetDeckLoader" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="TweetDeckLoader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="157184">
+      <assemblyIdentity name="CefSharp" version="49.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hU+3M4th9nx3p3e0h/7lk39uVmmynhVjs2WiQVXj2zQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1028608">
+      <assemblyIdentity name="CefSharp.Core" version="49.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NGKzrJGPjh+HQKz4upam2e+NN/R+y1d3Dl4HrdWJWkA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="22528">
+      <assemblyIdentity name="CefSharp.WinForms" version="49.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VNQA/d9fymDpvlzccUaWw5Xiau51XT4klu60xPvmITA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TweetDeckLoader.exe" size="751016">
+      <assemblyIdentity name="TweetDeckLoader" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5q8aNSi+8VpeRJ9F/Yi5gtr3eKQ/hcGQ4YK03XthzCI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ikona.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UCFOQHJ8QKUGE/aVzvbGc8KLD1wJ+PN8Q2EZ6rZA0U0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TweetDeckLoader.exe.config" size="920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yPxUghmSWrz1fs9Z3JtlJ83qFGiHJ5e4ut760jHpIYc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HOMEPC\boris" issuerKeyHash="40b549107368e1c6a7646b48937cd7f37792ae04" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rYBU1YFKRkXdZ1+TFNemSSDgwA1uV1WyFJaKcB6X1JE=</DigestValue></Reference></SignedInfo><SignatureValue>UWFNJRq9ksBGRToMn7aT9v7UP0Bhl63KD/U00pvyqj8krsyKc1OhEINcBK4efJXaDYMHWdrTJ64a7AYqndjjiiHKJ2HprLosjheznF4N1AbftmL8IXs8SHzdywDdne7lWEQZZPD2NRQHiIkKUD1gcT8HUk+sw5YzydfZn3tcR4w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nR6DfGrNimO/xTYk8oLePv5b4nHRPEqxiutg3IvA58BN/OAKEboV5PAHASIxg2ZK081wVwhSnHJtvGANLS4xnRqkr0/u8cWhirn3FOKn8xl7OZm4pvonxEqbb7BVa+8vJU2P7vsYrrBMFMgFY5zyd5vyJkl9G3BmbrtAaL7U4J8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="91d4971e708a9614b255576e0dc0e02049a6d714935f67dd45464a81d55480ad" Description="" Url=""><as:assemblyIdentity name="TweetDeckLoader.exe" version="1.0.0.0" publicKeyToken="402471dad93b1f25" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOMEPC\boris</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tjK6Qrq/I4aYmmxLBEkLm8CnIcPIiH8rwOnYCX8mluU=</DigestValue></Reference></SignedInfo><SignatureValue>EjqbnL0F0XBs+aAr9zPk9bfTdnzjdE7Lb4krQHV6EZmJhK6e/b66ydtgoXMKOMa4+HcEfM6TioS49PPX7PhN3W+Tyhr7JTTArDqzC8wB6uUjOdTW8IsHvomKG4gJbdVXMc/MbJK8S553pZ02msGN8cd4UF+HTINOa5gdtXxssVc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nR6DfGrNimO/xTYk8oLePv5b4nHRPEqxiutg3IvA58BN/OAKEboV5PAHASIxg2ZK081wVwhSnHJtvGANLS4xnRqkr0/u8cWhirn3FOKn8xl7OZm4pvonxEqbb7BVa+8vJU2P7vsYrrBMFMgFY5zyd5vyJkl9G3BmbrtAaL7U4J8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQT/JSn11nloVFRzZCRSItdjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgASABPAE0ARQBQAEMAXABiAG8AcgBpAHMwHhcNMTYwNDE1MTgyNzUyWhcNMTcwNDE2MDAyNzUyWjAjMSEwHwYDVQQDHhgASABPAE0ARQBQAEMAXABiAG8AcgBpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ0eg3xqzYpjv8U2JPKC3j7+W+Jx0TxKsYrrYNyLwOfATfzgChG6FeTwBwEiMYNmStPNcFcIUpxybbxgDS0uMZ0apK9P7vHFoYq59xTip/MZezmZuKb6J8RKm2+wVWvvLyVNj+77GK6wTBTIBWOc8neb8iZJfRtwZm67QGi+1OCfAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADvFEKJcqxaml2wtuavjsDu7ijPUGtNdjyAwBH2TFkVNxjSm9lKFPmCbSFIVUlCVd6ylkD65zZ156iG2Ovw4lIhRgdes31DqY6Yi7ht5v7aiOPQRNBtkNJiCABlyNc3e07CYkPea4f6+PICBnXDp/yxcBqiLYZRB49RHHwbVecRo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
