@@ -11,6 +11,6 @@ more info about startup folder: http://www.softwareok.com/?seite=faq-Windows-10&
 
 ## Download
 
-**[Portable](https://github.com/boristomas/TweetDeckWindows/blob/master/TweetDeck/bin/x86/Release/Portable.zip)** 
+**[Portable](https://github.com/boristomas/TweetDeckWindows/blob/master/TweetDeck/bin/x86/Release/Portable.zip?raw=true)** 
 
-**[Setup](https://github.com/boristomas/TweetDeckWindows/blob/master/TweetDeck/publish/Setup.zip)**
+**[Setup](https://github.com/boristomas/TweetDeckWindows/blob/master/TweetDeck/publish/Setup.zip?raw=true)**
