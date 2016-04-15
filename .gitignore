@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+TweetDeck/bin/x86/Release/Cookies
+TweetDeck/bin/x86/Release/Cookies-journal
+TweetDeck/bin/x86/Release/data_0
+TweetDeck/bin/x86/Release/data_1
+TweetDeck/bin/x86/Release/data_2
+TweetDeck/bin/x86/Release/data_3
+TweetDeck/bin/x86/Release/ChromeDWriteFontCache
+TweetDeck/bin/x86/Release/debug.log
+*.localstorage
+*.localstorage-journal
