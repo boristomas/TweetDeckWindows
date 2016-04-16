@@ -12,3 +12,7 @@ WinKey+R type in
 "shell:startup"
 
 more info about startup folder: http://www.softwareok.com/?seite=faq-Windows-10&faq=28
+## HELP
+twitter: [@boristomas](http://www.twitter.com/boristomas)
+
+email: boris.tomas@gmail.com
